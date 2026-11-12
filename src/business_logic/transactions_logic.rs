@@ -19,7 +19,7 @@ impl Client {
                     self.transations_history.insert(
                         transaction.tx,
                         Transaction {
-                            amount: amount,
+                            amount,
                             is_under_dispute: false,
                         },
                     );
@@ -35,7 +35,7 @@ impl Client {
                     self.transations_history.insert(
                         transaction.tx,
                         Transaction {
-                            amount: amount,
+                            amount,
                             is_under_dispute: false,
                         },
                     );
